@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /assets/footer-
 
 # Exclude system folders
 Disallow: /node_modules/

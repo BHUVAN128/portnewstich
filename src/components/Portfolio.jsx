@@ -101,8 +101,13 @@ const Portfolio = () => {
         {/* Center Image */}
         <div className="relative w-full max-w-sm md:max-w-md flex justify-center z-20">
           <img
+            id="profile-portrait"
             src={portfolioImg}
-            alt="Portfolio Portrait"
+            alt="Bhuvanesh V - Official Profile Portrait"
+            title="Bhuvanesh V - AI Engineer &amp; Full Stack Developer"
+            itemProp="image"
+            loading="eager"
+            fetchPriority="high"
             className="w-full h-auto border-4 border-white shadow-2xl"
           />
         </div>

@@ -134,7 +134,8 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/bhuvanesh-v-ai"
               target="_blank"
-              rel="noreferrer"
+              rel="me noopener noreferrer"
+              title="Bhuvanesh V - LinkedIn Profile"
               className="w-12 h-12 rounded-full bg-zinc-100 border border-zinc-300 flex items-center justify-center transition-all duration-300 hover:bg-[#0a66c2] hover:border-[#0a66c2] hover:shadow-[0_0_20px_rgba(10,102,194,0.4)] group"
             >
               <svg className="w-5 h-5 text-black group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
@@ -173,7 +174,8 @@ const Hero = () => {
           <img
             id="hero-image"
             src={heroImg}
-            alt="Leeshark Developer"
+            alt="Bhuvanesh V - AI Engineer Illustration"
+            fetchPriority="low"
             className="w-full max-w-[280px] lg:max-w-xl max-h-[40vh] lg:max-h-[85vh] object-contain drop-shadow-xl pointer-events-none"
             loading="eager"
           />
